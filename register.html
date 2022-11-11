@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="stylesheet" href="webpage.css">
+    
+
+</head>
+<body>
+    <div class="registerpage">
+        <h2>SIGN UP</h2>
+        <form action="connect.php" method="post" >
+            <label for="userid">Username:</label>
+            <input type="text" placeholder="" name="userid" id="userid" />
+            <label for="email">Email:</label>
+            <input type="email" placeholder="abcd@gmail.com" name="email" id="email" />
+            <br>
+            <label for="mobile number">Mobile number:</label>
+            <input type="phone number" placeholder="xxxxxxxxxx" name="mobile number" id="mobile number" />
+            <label for="Date of birth">Date of birth:</label>
+            <input type="date" name="DOB" id="Date of birth" />
+            <br>
+            <label for="">gender:</label>
+            <input type="radio" name="gender" id="gender">Male
+            <input type="radio" name="gender" id="gender">Female
+            <input type="radio" name="gender" id="gender">others
+            <br>
+            <label for="Father name">Father name:</label>
+            <input type="text" name="father name" id="Father name" />
+            <label for="Mother name">Mother name:</label>
+            <input type="text" name="mother name" id="Mother name"/>
+            <br>
+            <label for="house no./area">House no./area:</label>
+            <input type="text" name="house no./area" id="house no./area"/>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city"/>
+            <br>
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state"/>    
+            <label for="nationality">Nationality:</label>
+            <input type="text" name="nationality" id="nationality"/>
+            <br>
+            <label for="password">Create Password:</label>
+            <input type="password" placeholder="" name="password" id="password"/>
+            <label for="password2">Conform Password:</label>
+            <input type="password" placeholder="" name="password2" id="password2"/>
+            <br>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">Yes,I agree the terms and conditions</label>
+            <br>
+            <button class="regbtn" type="button" name="register" id="register">Register</button>
+            <br>
+            <small>Error message</small>
+            <br>
+            <div class="loginlink">
+                <span>If you already registered..?</span><a href="login.html">Click here<b> to go to login</b></a>
+            </div>
+
+        </form>
+    </div>
+    <script src="webpage.js"></script>
+
+</body>
+</html>
